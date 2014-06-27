@@ -56,7 +56,7 @@ void newdata(char *arg){
 //Display the file using vim
 void openfile(char *arg){
   FILE *list;
-  char string[80]="vim ";
+  char string[80]="vi ";
   system("clear");
   if( (list=fopen(arg, "r")) == NULL){
     printf("\nError! No data!\n");
